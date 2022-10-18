@@ -1,0 +1,173 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: .9;
+    
+}
+
+nav {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    display: inline-flex;
+ }  
+ 
+nav .links {
+    width: fit-content;
+    display: inline-flex;
+    justify-content: flex-end;
+    text-decoration: underline;
+    flex: 1 1 content;
+    background-color: transparent;
+    align-content: center;
+}  
+
+#nav-links1, #nav-links2, #nav-links3 {
+    margin-left: 30px;
+}
+
+ nav img {
+    height: 50px;
+    align-content: flex-start;
+    
+ }
+
+
+header { 
+    background-image: url("../Images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 1200px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigthing {
+    display: flex;
+    align-content: center ;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 1100px;
+}
+
+#mission, #description {
+    display: flex !important;
+    width: fit-content !important;
+    align-items: center;
+}
+
+.imgs {
+    max-width: 400px;
+}
+
+.mid-section {
+   display: flex;
+   justify-content: center;
+    
+}
+
+.tea-of-the-month-headers {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: 800;
+
+}
+
+.totm-container { 
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.totm {
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+    
+}
+
+
+
+.totm img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#locations {
+    height: 500px;
+    background-image: url(../Images/img-locations-background.jpg);
+    width: fit-content;
+    margin: auto;
+}
+#locations h2 {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    font-weight: 900;
+}
+
+.locations {
+    width: 300px;
+    opacity: 1;
+    display: inline-flex;
+    justify-content: space-around;
+    height: 400px;
+    margin: 40px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location-details {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    
+}
+
+footer {
+    
+}
+
+.tea-cozy-ending-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 100%;
+}
+
+#tea-cozy-ending {
+    display: flex;
+    height: 200px;
+    width: fit-content;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 900;
+    margin-top: 25px;
+    
+}
+
+#copyright {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    background-color: transparent;
+}
